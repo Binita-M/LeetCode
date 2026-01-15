@@ -10,7 +10,7 @@ public class UniqueCharacters {
             char c = string.charAt(i);
 
             if (!uniqueChar.contains(c)) {
-                System.out.println(c + "");
+                System.out.println(c);
                 uniqueChar.add(c);
             }
         }
