@@ -1,7 +1,4 @@
-package LeetCode.TwoPointer;
-
-import java.util.ArrayList;
-import java.util.List;
+package LeetCode.TopInterviewQuestions.ArrayAndString;
 
 public class RemoveElement {
     public int removeElement(int[] nums, int val) {
