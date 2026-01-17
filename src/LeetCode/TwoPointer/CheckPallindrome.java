@@ -5,7 +5,7 @@ public class CheckPallindrome {
         int left = 0;
         int right = string.length()-1;
 
-        if (left<right) {
+        while (left<right) {
             if (string.charAt(left) != string.charAt(right)) {
                 return false;
             }
