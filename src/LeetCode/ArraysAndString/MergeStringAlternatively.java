@@ -1,6 +1,4 @@
-package LeetCode.TwoPointer;
-
-import java.util.List;
+package LeetCode.ArraysAndString;
 
 public class MergeStringAlternatively {
     public String mergeAlternatively (String word1, String word2) {
