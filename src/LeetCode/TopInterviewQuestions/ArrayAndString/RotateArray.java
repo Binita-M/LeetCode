@@ -19,15 +19,18 @@ public class RotateArray {
             nums[i] = temp[i];
         }*/
 
+        // Insight: Using Divide and conquer
         if (nums == null || nums.length == 0) return; //handles null pointer
         int n= nums.length;
         k= k % n; //handles case where k>n
 
+        //recursive steps
         reverse(nums, 0, n-1); //reverses whole array
         reverse(nums, 0, k-1); //reverses first k elements
         reverse(nums, k, n-1); //reverses remaining elements
     }
 
+    //Divide the array
     public void reverse(int[] nums, int left, int right) {
         while (left < right) {
             int temp = nums[left];
