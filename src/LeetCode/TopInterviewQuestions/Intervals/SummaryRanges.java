@@ -3,7 +3,7 @@ package LeetCode.TopInterviewQuestions.Intervals;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SummaryRanges {
+public class SummaryOfRanges {
     public List<String> summaryRanges(int[] nums) {
         List<String> result = new ArrayList<>(); //initializing list to store the resulting ranges
 
@@ -33,7 +33,7 @@ public class SummaryRanges {
         //int[] nums = {0,1,2,4,5,7};
         int[] nums = {0,1,2,3,4,6,8,9};
 
-        SummaryRanges sr = new SummaryRanges();
+        SummaryOfRanges sr = new SummaryOfRanges();
         List<String> result = sr.summaryRanges(nums);
         System.out.println(result);
     }
